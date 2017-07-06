@@ -2,6 +2,10 @@ h1{
 	color:red;
 	font-family:Lobster;
 	text-shadow: 5px 5px 5px #FF0000;
+	animation: myfirst 5s;
+	-moz-animation: myfirst 5s;	/* Firefox */
+	-webkit-animation: myfirst 5s;	/* Safari 和 Chrome */
+	-o-animation: myfirst 5s;	/* Opera */
 }
 div{
 	border:2px solid #a1a1a1;
@@ -21,7 +25,33 @@ div{
 	-moz-transition: width 2s;	/* Firefox 4 */
 	-webkit-transition: width 2s;	/* Safari 和 Chrome */
 	-o-transition: width 2s;	/* Opera */
+	resize:both;
+	overflow:auto;
 }
 div:hover{
 	width:300px;
+}
+
+@keyframes myfirst
+{
+from {background:red;}
+to {background:yellow;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background:red;}
+to {background:yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background:red;}
+to {background:yellow;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background:red;}
+to {background:yellow;}
 }
