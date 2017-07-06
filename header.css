@@ -1,0 +1,27 @@
+h1{
+	color:red;
+	font-family:Lobster;
+	text-shadow: 5px 5px 5px #FF0000;
+}
+div{
+	border:2px solid #a1a1a1;
+	padding:10px 40px;
+	background:#dddddd;
+	width:350px;
+	border-radius:25px;
+	-moz-border-radius:25px;for old firefox
+	box-shadow: 10px 10px 5px #888888;
+	background-color:cyan;
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);		/* IE 9 */
+	-webkit-transform: rotate(30deg);	/* Safari and Chrome */
+	-o-transform: rotate(30deg);		/* Opera */
+	-moz-transform: rotate(30deg);		/* Firefox */
+	transition: width 2s;
+	-moz-transition: width 2s;	/* Firefox 4 */
+	-webkit-transition: width 2s;	/* Safari 和 Chrome */
+	-o-transition: width 2s;	/* Opera */
+}
+div:hover{
+	width:300px;
+}
