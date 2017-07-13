@@ -7,6 +7,11 @@ h1{
 	-webkit-animation: myfirst 5s;	/* Safari 和 Chrome */
 	-o-animation: myfirst 5s;	/* Opera */
 }
+header{
+}
+section{
+	
+}
 div{
 	border:2px solid #a1a1a1;
 	padding:10px 40px;

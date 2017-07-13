@@ -6,4 +6,3 @@ upload:
 	git add .
 	git commit -m "naive"
 	git push $(REPO) $(BRANCH) &>~/log/git &
-
