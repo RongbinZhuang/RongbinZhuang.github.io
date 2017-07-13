@@ -8,9 +8,16 @@ h1{
 	-o-animation: myfirst 5s;	/* Opera */
 }
 header{
+	color:red;
+	font-family:Lobster;
+	text-shadow: 5px 5px 5px #FF0000;
+	animation: myfirst 5s;
+	-moz-animation: myfirst 5s;	/* Firefox */
+	-webkit-animation: myfirst 5s;	/* Safari 和 Chrome */
+	-o-animation: myfirst 5s;	/* Opera */
 }
 section{
-	
+
 }
 div{
 	border:2px solid #a1a1a1;
