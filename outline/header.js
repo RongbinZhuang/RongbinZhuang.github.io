@@ -16,7 +16,7 @@ headDiv[1]=document.createElement("headDiv");
 headDiv[0].appendChild(Title);
 
 for (var idx in headBtnText){
-  headBtn[idx]=document.createElement("button");
+  headBtn[idx]=document.createElement("a");
   headBtn[idx].className="headButton";
   headBtn[idx].appendChild(document.createTextNode(headBtnText[idx]));
   headDiv[1].appendChild(headBtn[idx]);
