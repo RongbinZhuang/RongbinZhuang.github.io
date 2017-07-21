@@ -5,8 +5,30 @@ body{
   padding: 0px;
 }
 
+.header{
+  background-color: #808cfa;
+  width: 100%;
+  height:5%;
+}
+
 #nav ul li{
+  list-style: none !important;
   background-color: #808cfa;
   float:right;
-  padding:5px;
+  font: bolder 100% fantasy;
+  text-align: center;
+  padding: 0.5em;
+  display: flex !important;
+  letter-spacing:0.1em;
+}
+
+#nav text{
+  float: left;
+  text-align: center;
+  padding: 0.5em;
+  font: bold ;
+  font-weight: 600;
+  font-variant:small-caps;
+  font-style: oblique;
+  color: #e04785;
 }
