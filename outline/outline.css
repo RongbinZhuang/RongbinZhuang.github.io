@@ -1,17 +1,22 @@
 body{
   background-color: #4499ff;
-  font: normal 100% Helvetica, Arial, sans-serif;
+  font: bolder 100% Helvetica, Arial, sans-serif;
   margin: 0px;
   padding: 0px;
+  font-variant:small-caps;
+  font-weight: 600;
+}
+
+a{
+  font: 600 100% ;
+  text-decoration: none;
+  color: rgba(233,233,255,1);
 }
 
 headText{
   float: left;
   text-align: center;
   padding: 0.5em;
-  font: bold ;
-  font-weight: 600;
-  font-variant:small-caps;
   font-style: oblique;
   color: #e04785;
 }
@@ -19,24 +24,34 @@ headText{
 .header{
   background-color: rgba(128,200,255,0.7);
   width: 100%;
-  height:5%;
+  height: 5%;
 }
 
 #nav ul li{
   list-style: none !important;
   background-color: inherit;
   float:right;
-  font: bolder 100% fantasy;
   text-align: center;
   padding: 0.5em;
   display: flex !important;
-  letter-spacing:0.1em;
+
 }
 
 #main ul li{
-  display: flex !important;
+  list-style: none !important;
+  background-color: rgba(255,255,255,0.3);
+  height:300px;
+  width:97%;
+  border-radius: 1.5%;
+}
+
+#main section{
+  list-style: none !important;
   background-color: rgba(255,255,255,0.3);
   height:40%;
-  width:97%;
+  width:95%;
+  margin:2.5%;
+  margin-bottom: 0px;
+  margin-top: 0px;
   border-radius: 1.5%;
 }
